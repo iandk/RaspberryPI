@@ -95,10 +95,10 @@ while True:
 
     # Write four lines of text.
 
-    draw.text((x, top + 0), "TEMP: " + TEMP, font=font, fill=255)
-    draw.text((x, top + 16), "CPU: " + CPU, font=font, fill=255)
-    draw.text((x, top + 32), MemUsage, font=font, fill=255)
-    draw.text((x, top + 50), Disk, font=font, fill=255)
+    draw.text((x + 2, top + 0), "TEMP: " + TEMP, font=font, fill=255)
+    draw.text((x + 2, top + 16), "CPU: " + CPU, font=font, fill=255)
+    draw.text((x + 2, top + 32), MemUsage, font=font, fill=255)
+    draw.text((x + 2, top + 50), Disk, font=font, fill=255)
 
     # Display image.
     disp.image(image)
